@@ -1,0 +1,45 @@
+body,html {
+  padding: 0;
+  margin:0;
+  height:100%;
+  width:100%;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+#titleBar {
+	height: 55px;
+	width: 450px;
+	text-transform: uppercase;
+	text-align: center;
+	background: rgba(15, 51, 56, 0.8);
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	font-family: sans-serif;
+	color: #FFFAFA;
+	padding: 7px;
+	font-size: 35px;
+	font-weight: bolder;
+	box-sizing: border-box;
+	z-index:1;
+}
+
+#sideBar {
+	height: 100%;
+	width: 325px;
+	background: rgba(15, 51, 56, 0.8);
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-family: sans-serif;
+	color: #FFFAFA;
+	padding: 17px;
+	font-size: 14px;
+	box-sizing: border-box;
+	cursor:pointer;
+	z-index:10;
+}
