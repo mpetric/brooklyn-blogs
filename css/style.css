@@ -42,8 +42,8 @@ body,html {
 	left: 0;
 	font-family: sans-serif;
 	color: #FFFAFA;
-	padding: 17px;
-	font-size: 14px;
+	padding: 10px;
+	font-size: 13px;
 	box-sizing: border-box;
 	z-index:10;
 }
