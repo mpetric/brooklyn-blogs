@@ -8,7 +8,28 @@
 </head>
 <body>
   <div id="titleBar">Brooklyn Blog Map</div>
-  <div id="sideBar"></div>
+  <div id="sideBar">
+    <div id="neighborhoodName">
+      <h3>Neighborhood:</h3>
+      Placeholder
+    </div>
+    <div id="blogTitle">
+      <h3>Blog:</h3>
+      Placeholder
+    </div>
+    <div id="about">
+      <h3>About this Project</h3>
+      <p>This is Assignment #5 for XSAVI780. For this project I used the neighborhood tabulation area shapefile available on NYC's Bytes of the Big Apple to identify the approximate borders of Brooklyn neighborhoods. I then compiled a list of blogs focused on particular neighborhoods and used QGIS to merge the two data sets and export as a GeoJSON file.</p>
+      <p>
+        There are several improvements that I'd like to make to this page:
+        <ol>
+          <li>Rather than clicking to call a popup window, I'd like to have a hover effect which populates the neighborhoodName and blogTitle div elements on the sidebar.</li>
+          <li>I'd like to replace the click event, which currently generates the popup window, with a hyperlink to the Blog website.</li>
+          <li>I'd like to create a hover effect which darkens the polygon on hover.</li>
+        </ol>
+      </p>
+    </div>
+  </div>
   <div id="map"></div> 
   <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
   <script src="https://rawgit.com/calvinmetcalf/leaflet-ajax/master/dist/leaflet.ajax.min.js"></script>

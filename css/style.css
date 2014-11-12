@@ -10,12 +10,17 @@ body,html {
   width: 100%;
 }
 
+#about
+	{
+	margin-top:50px;
+}
+
 #titleBar {
 	height: 55px;
 	width: 450px;
 	text-transform: uppercase;
 	text-align: center;
-	background: rgba(15, 51, 56, 0.8);
+	background: rgba(50, 50, 50, 0.85);
 	position: absolute;
 	top: 5px;
 	right: 5px;
@@ -30,8 +35,8 @@ body,html {
 
 #sideBar {
 	height: 100%;
-	width: 325px;
-	background: rgba(15, 51, 56, 0.8);
+	width: 350px;
+	background: rgba(50, 50, 50, 0.85);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -40,6 +45,5 @@ body,html {
 	padding: 17px;
 	font-size: 14px;
 	box-sizing: border-box;
-	cursor:pointer;
 	z-index:10;
 }
